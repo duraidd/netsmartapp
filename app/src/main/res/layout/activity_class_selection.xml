@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/bg_color"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/fraghome_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/toolbar_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:elevation="4dp"
+                app:navigationIcon="@drawable/back_arrow"
+                app:titleTextColor="@color/black">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/title_name"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/class_head_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar_linear_layout"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose your Class"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/recycler_of_classes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/class_head_layout">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvclasses"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/term_head_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_head_layout"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose your Term"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:id="@+id/recycler_of_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvterms"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/group_head_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/class_head_layout"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose your Group"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:id="@+id/recycler_of_groups"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvgroups"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/final_submit_btn"
+                android:layout_gravity="center"
+                android:layout_below="@+id/rvterms"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:insetBottom="0dp"
+                android:text="Let's Start Learning"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

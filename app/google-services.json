@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "996317236774",
+    "project_id": "netsmart-c5fad",
+    "storage_bucket": "netsmart-c5fad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996317236774:android:2b153d08e301bc01ab20e7",
+        "android_client_info": {
+          "package_name": "com.netcom.netsmartapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996317236774-s79ce3aa9fsn8p32b0eel4r9tsv0jdl5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netcom.netsmartapp",
+            "certificate_hash": "04101ad8caf1cbe8df9ae749b3a06b641129372e"
+          }
+        },
+        {
+          "client_id": "996317236774-ot5jmj7bjhikvbs84mtv70ctoe0f22ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTWPX_A4hWHbctruz4uC8RDOZkrKc6a1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996317236774-ot5jmj7bjhikvbs84mtv70ctoe0f22ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

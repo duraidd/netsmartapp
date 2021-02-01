@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.netcom.netsmartapp.homePageFragments.home_fragment"
+        android:label="fragment_home_fragment"
+        tools:layout="@layout/fragment_home_fragment" />
+    <fragment
+        android:id="@+id/analytics_fragment"
+        android:name="com.netcom.netsmartapp.homePageFragments.analytics_fragment"
+        android:label="fragment_analytics_fragment"
+        tools:layout="@layout/fragment_analytics_fragment" />
+    <fragment
+        android:id="@+id/bookmarks_fragment"
+        android:name="com.netcom.netsmartapp.homePageFragments.bookmarks_fragment"
+        android:label="fragment_bookmarks_fragment"
+        tools:layout="@layout/fragment_bookmarks_fragment" />
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.netcom.netsmartapp.homePageFragments.profile_fragment"
+        android:label="fragment_profile_fragment"
+        tools:layout="@layout/fragment_profile_fragment" />
+</navigation>

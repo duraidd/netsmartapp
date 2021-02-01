@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Netcom Smart</string>
+
+    // Registration Screen
+    <string name="register">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>\
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="Class">Class</string>
+    <string name="board">Board</string>
+    <string name="group">Group</string>
+    <string name="location">Location</string>
+    <string name="email">Email ID</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="signup">Register</string>
+    // Spinners
+    <string-array name="Boards">
+        <item>Select your Board</item>
+        <item>Stateboard Tamil</item>
+        <item>Stateboard English</item>
+        <item>CBSE</item>
+    </string-array>
+    <string-array name="Class">
+        <item>Select your Class</item>
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+        <item>Class 5</item>
+        <item>Class 6</item>
+        <item>Class 7</item>
+        <item>Class 8</item>
+        <item>Class 9</item>
+        <item>Class 10</item>
+        <item>Class 11</item>
+        <item>Class 12</item>
+    </string-array>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="welcome_name">Welcome to Netcom <font color='#1E7C49'>Smart</font> </string>
+    <string name="terms_condition">By creating an account ,you are agreeing to our<b><font color="#1E7C49"> Terms of service</font></b> </string>
+    <string name="title_name">Netcom <font color='#1E7C49'>Smart</font> </string>
+    <string name="terms_and_condions_descriptions">
+
+        <![CDATA[<b>Privacy Policy</b><br /><br />We value your trust. In order to honour that trust,netSmart adheres to ethical standards in gathering, using, and safeguarding any information you provide.<br />Think and Learn Private Limited (operating under the brandnamenetSmart), is a leading edtech company, incorporated in India, for imparting learning<br />This privacy policy governs your use of the application netSmart - The Learning App  and the other associated applications, products, websites and services managed by the Company<br />Please read this privacy policy  carefully before using the Application, Website, our services and products, along with the Terms of Use  provided on the Application and the Website. Your use of the Website, Application, or  services  in connection with the Application,  Website or products , or registrations with us through any  modes or usage of any products including through SD cards, tablets or other storage transmitting device shall signify your acceptance of this Policy and your agreement to be legally bound by the same<br />If you do not agree with the terms of this Policy, do not use the Website, Application our products or avail any of our Services<br /><br /><b>User Provided Information</b><br /><br />The Application obtains the information you provide when you download and register for the Application or Services or products. When you register with us, you generally provide  your name, age, email address, location, phone number, password and your wards educational interests  transaction-related information, such as when you make purchases, respond to any offers, or download or use applications from us  information you provide us when you contact us for help  information you enter into our system when using the Application, such as while asking doubts, participating in discussions and taking tests. The said information collected from the users could be categorized. Personal Information, Sensitive Personal Information and Associated Information (each as individually defined under this Information Technology (Reasonable security practices and procedures and sensitive personal data or information) Rules, 2011 (the “Data Protection Rules”)) shall collectively be referred to as in this Policy<br />We may use the Information to contact you from time to time, to provide you with the Services, important information, required notices and marketing promotions. We will ask you when we need more information that personally identifies you (personal information) or allows us to contact you<br />We will not differentiate between who is using the device to access the Application, Website or Services or products, so long as the log in access credentials match with yours. In order to make the best use of the Application and enable your Information to be captured accurately on the Application, it is essential that you have logged in using your own credentials<br />We will, at all times, provide the option to you to not provide the Personal Information or Sensitive Personal Information, which we seek from you. Further, you shall, at any time while using the Application, also have an option to withdraw your consent given earlier to us to use such Personal Information or Sensitive Personal Information. Such withdrawal of the consent is required to be sent in writing to us at the contact details provided in this Policy below. In such event, however, the Company fully reserves the right not to allow further usage of the Application or provide any Services thereunder to you<br /><b>Automatically Collected Information</b><br />In addition, the Applicationproducts Services may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application. As is true of most Mobile applications, we also collect other relevant information as per the permissions that you provide<br />We use an outside credit card processing company to bill you for goods and services. These companies do not retain, share, store or use personally identifiable information for any other purpose<br /><b>Use of your Personal Information</b><br />We use the collected Information to analyse trends, to conduct research, to administer the Application, to learn about each users learning patterns and movements around the Application and to gather demographic information and usage behaviour about our user base as a whole. Aggregated and individual, anonymized and non-anonymized data may periodically be transmitted to external service providers to help us improve the Application, products and our Services. We will share your information with third parties only in the ways that are described below in this Policy.]]>
+    </string>
+    <string name="otp_title">
+        To Complete Registration,
+We have sent OTP to 87458561255
+    </string>
+    <string name="resnd_otp">Didn’t  Receive SMS?<font color='#1E7C49'> Resend OTP</font></string>
+
+</resources>
